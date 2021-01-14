@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+.header-wrapper{
+    background-color: #FFFBF0;
+}
+.hero-title{
+    font-size: 80px;
+}
+.orange{
+    color: #FABE4C;
+}
+.blue{
+    color: #363958
+}
+.site-btn{
+    border: 1px solid #A4BC46;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#A4BC46, #85A019);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.site-btn:hover{
+    opacity: 1;
+    background-color: #A4BC46;
+    border: 1px solid #A4BC46;
+}
+.site-btn i{
+    margin-right: 10px;
+}
+.no-border{
+    border:none;
+}
+.img-wrapper{
+    height: 380px;
+    padding: 15px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.img-wrapper img{
+    height: 100%;
+    object-fit: contain;
+}
+.product{
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.about-card{
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.about-image img{
+    width:90px;
+    object-fit: contain;
+}
+.card-title{
+    font-size: 24px;
+}
+.navbar-nav a{
+    margin-right: 30px;
+}
+.navbar-nav a:last-child{
+    margin-right: 0px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("images/toggle-icon.png");
+}
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.header-wrapper{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -220px;
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px){
+    .about-card{
+        width: 100%;
+    }
+    .article{
+        display: block !important;
+
+    }
+    .article .about-image{
+        text-align: center;
+    }
+    .article .content{
+        padding-left: 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .hero-title{
+        font-size: 60px;
+    }
+    .sm-pt-15{
+        padding-top: 20px;
+    }
+    .navbar-nav{
+        align-items: flex-end;
+    }
+    .navbar-nav a, .navbar-nav a:last-child{
+        margin-right: 15px;
+    }
+    .header-wrapper{
+        background:none;
+    }
+    .centerized{
+        text-align: center;
+    }
+}
